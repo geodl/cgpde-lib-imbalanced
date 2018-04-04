@@ -4623,7 +4623,7 @@ static int getRandomNodeInput(int numChromoInputs, int numNodes, int nodePositio
 
 	/* pick any ahead nodes or the node itself */
 	if (randDecimal(seed) < recurrentConnectionProbability) {
-		input = randInt(numNodes - nodePosition, seed) + nodePosition + 1;
+		input = randInt(numNodes - nodePosition, seed) + nodePosition + numChromoInputs;
 	}
 	/* pick any previous node including inputs */
 	else {
