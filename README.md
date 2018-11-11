@@ -34,7 +34,7 @@ A. J. Turner and J. F. Miller. [**Introducing A Cross Platform Open Source Carte
 
 First you'll want to clone the repository:
 
-`git clone https://github.com/johnathamelo/cgpde-lib-imbalanced.git`
+`git clone https://github.com/johnathanmelo/cgpde-lib-imbalanced.git`
 
 Once that's finished, navigate to the Root directory. In this case it would be ./cgpde-lib-imbalanced:
 
